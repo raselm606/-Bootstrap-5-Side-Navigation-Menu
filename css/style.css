@@ -1,0 +1,60 @@
+.nabMenuBar{
+    color: #FE0A52 !important;
+    font-size: 24px !important;
+}
+.nav-menu-item{
+    text-decoration: none;
+    color: white;
+}
+.nav-menu-item:hover{
+    text-decoration: none;
+    color: white;
+    border-left: 5px solid white;
+    transition: 0.1s;
+}
+.sideNavOpen{
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 10;
+    overflow-x: hidden;
+    padding-left: 10px;
+    padding-top: 20px;
+    transition: 0.1s;
+    background-color: #FE0A52;
+}
+.sideNavClose{
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 10;
+    overflow-x: hidden;
+    padding-left: 10px;
+    padding-top: 20px;
+    transition: 0.1s;
+    background-color: #FE0A52;
+}
+.ContentOverlay{
+    display: block;
+    position: fixed;
+    height: 100%;
+    top:0;
+    left: 0;
+    z-index: 7;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.5);
+}
+.ContentOverlayClose{
+   display: none;
+}
+.Content{
+    margin-left: 60px;
+    margin-top: 60px;
+    z-index: 5;
+}

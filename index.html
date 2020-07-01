@@ -1,0 +1,141 @@
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/fontawesome.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<nav class="navbar shadow-sm fixed-top navbar-light bg-light">
+    <div class="container-fluid">
+        <a id="NavMenuBar" class="navbar-brand nabMenuBar" href="#"><i class="fa fa-bars"></i> </a>
+    </div>
+</nav>
+
+<div id="SideNavID" class="sideNavClose mt-5">
+    <a class="nav-menu-item" href="#"><i class="fa m-2 fa-home"></i><span class="menuText d-none">Home</span></a><br>
+    <a class="nav-menu-item" href="#"><i class="fa m-2 fa-envelope"></i><span class="menuText d-none">Contact</span></a><br>
+    <a class="nav-menu-item" href="#"><i class="fa m-2 fa-question-circle"></i><span class="menuText d-none">About</span></a><br>
+    <a class="nav-menu-item" href="#"><i class="fa m-2 fa-globe"></i><span class="menuText d-none">Settings</span></a><br>
+</div>
+
+<div id="ContentOverlayID"  class="ContentOverlayClose">
+</div>
+
+<div id="Content"  class="Content">
+    <div class="container">
+        <div class="row">
+
+
+            <div class="col-md-4 p-2">
+                <div class="card w-100">
+                    <img src="http://rabbil.com/storage/blogpost.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-2">
+                <div class="card w-100">
+                    <img src="http://rabbil.com/storage/blogpost.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-2">
+                <div class="card w-100">
+                    <img src="http://rabbil.com/storage/blogpost.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-2">
+                <div class="card w-100">
+                    <img src="http://rabbil.com/storage/blogpost.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-2">
+                <div class="card w-100">
+                    <img src="http://rabbil.com/storage/blogpost.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-2">
+                <div class="card w-100">
+                    <img src="http://rabbil.com/storage/blogpost.jpg" class="card-img-top w-100" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+
+
+
+<script type="text/javascript">
+
+    $('#NavMenuBar').click(function () {
+        SideMenuOpenClose();
+    });
+
+    $('#ContentOverlayID').click(function () {
+        SideMenuOpenClose();
+    });
+
+
+    function SideMenuOpenClose() {
+        let SideNavID= $('#SideNavID');
+        let ContentOverlayID= $('#ContentOverlayID');
+        let menuText=$('.menuText');
+        if(SideNavID.hasClass('sideNavClose')){
+            SideNavID.removeClass('sideNavClose')
+            SideNavID.addClass('sideNavOpen')
+            menuText.removeClass('d-none');
+            ContentOverlayID.removeClass('ContentOverlayClose')
+            ContentOverlayID.addClass('ContentOverlay')
+        }else{
+            SideNavID.removeClass('sideNavOpen')
+            SideNavID.addClass('sideNavClose')
+            menuText.addClass('d-none');
+            ContentOverlayID.removeClass('ContentOverlay')
+            ContentOverlayID.addClass('ContentOverlayClose')
+        }
+    }
+
+</script>
+
+
+</body>
+
+</html>
