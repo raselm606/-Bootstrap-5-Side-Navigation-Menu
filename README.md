@@ -2,9 +2,9 @@
  Side Navigation Menu Using Bootstrap 5 & jQuery
 ### Preview
 
-<a target='_blank' href="https://www.youtube.com/watch?v=_RlexKmLyCk&list=PLkyGuIcLcmx0G69uguLOK1I0erp_Y_4bX&index=2&t=0s">TUTORIAL VIDEO</a>
+<a target="_blank" href="https://www.youtube.com/watch?v=_RlexKmLyCk&list=PLkyGuIcLcmx0G69uguLOK1I0erp_Y_4bX&index=2&t=0s">TUTORIAL VIDEO</a>
 
-<a target='_blank' href="https://rupomsoft.github.io/Bootstrap-5-Side-Navigation-Menu">LIVE DEMO</a>
+<a target="_blank" href="https://rupomsoft.github.io/Bootstrap-5-Side-Navigation-Menu">LIVE DEMO</a>
 
 <img width="100%" src="https://github.com/rupomsoft/Bootstrap-5-Side-Navigation-Menu/blob/master/Preview.gif"/>
 
